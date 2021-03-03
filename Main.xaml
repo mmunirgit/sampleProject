@@ -143,7 +143,7 @@
         <InArgument x:TypeArguments="x:String">[DateTime.Now.ToString("MM-yy")]</InArgument>
       </Assign.Value>
     </Assign>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="452,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;test value check &quot; + test]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="452,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;test value check  life&quot; + test]" />
     <Assign sap:VirtualizedContainerService.HintSize="452,60" sap2010:WorkflowViewState.IdRef="Assign_6">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[testString]</OutArgument>
